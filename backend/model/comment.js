@@ -3,9 +3,15 @@ import mongoose from "mongoose";
 const commentSchema = mongoose.Schema(
     {
         name:String,
-        emain:String,
+        
         comment:String,
+        email:{
+        type:String,
+        required:true
+
     },
+    },
+    
     { timestamps: true }
 
 )
