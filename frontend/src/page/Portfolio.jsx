@@ -1,10 +1,12 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
+import Hero from '../components/Hero'
 
 function Portfolio() {
   return (
     <div>
-        <h1>hi prahlad</h1>
-      
+       <Navbar/>
+      <Hero/>
     </div>
   )
 }
