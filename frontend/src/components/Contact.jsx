@@ -27,7 +27,7 @@ const Contact = () => {
     setStatus({ loading: true, success: null, error: null });
 
     try {
-      const res = await axios.post("http://localhost:1010/", formData);
+      const res = await axios.post("https://prahlad-portfolio.onrender.com", formData);
 
       if (res.data.success) {
         setStatus({
