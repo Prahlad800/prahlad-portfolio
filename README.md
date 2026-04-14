@@ -7,6 +7,7 @@ This is my personal portfolio website built to showcase my skills, projects, and
 ## 🚀 Live Preview
 
 👉 https://github.com/Prahlad800/prahlad-portfolio
+👉 https://prahlad-portfolio123.vercel.app
 
 
 ---
