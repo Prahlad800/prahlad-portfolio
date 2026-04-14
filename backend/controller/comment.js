@@ -46,7 +46,7 @@ export const submitContact = async (req, res) => {
         console.log(error);
         res.status(500).json({
             success: false,
-            message: "Error sending message ❌"
+            message: `Error sending message ❌ ${error}`
         });
     }
 };
