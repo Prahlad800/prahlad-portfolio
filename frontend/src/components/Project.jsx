@@ -95,7 +95,7 @@ function Project() {
       {/* Grid */}
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 px-6 md:px-20">
         {loading
-          ? Array(6)
+          ? Array()
               .fill(0)
               .map((_, i) => <SkeletonCard key={i} />)
           : projects.map((project) => (
